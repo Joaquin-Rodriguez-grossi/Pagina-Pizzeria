@@ -1,0 +1,356 @@
+
+/*.....................................HEADER...............................................*/
+@media screen {
+  header {
+  z-index: 10;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+
+.hero__nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo__img {
+  width: 7%;
+  
+}
+
+.telefono{
+  width: 33%;
+  font-size: 199%;
+
+}
+
+.logos-info{
+  width: 15%;
+  height: auto;
+  margin-bottom: 3%;
+  margin-right: 2%;
+  color: rgb(255, 196, 0);
+} 
+
+.direccion{
+  padding-left: 13%;
+  float: right;
+  width: 33%;
+  font-size: 199%;
+  
+}
+ 
+}
+
+/*.....................................MENU...............................................*/
+
+@media screen {
+  .menu_nav{
+    text-align: center;
+    background-color:#fff;
+    
+  }
+  
+  .menu_nav li{
+    float: left;
+  }
+  
+  .hero__list{
+    list-style:none;
+    display:inline-block;
+    }
+  
+    .nav__link {
+      text-decoration-color: rgba(255, 196, 0, 0.459);
+      padding: 0 1rem;
+      color: rgb(0, 0, 0);
+      font-size: 1.3em;
+    }
+  
+    .nav__link:hover {
+      color: rgb(255, 196, 0);
+      cursor: pointer;
+    }
+}
+
+
+/*.....................................PROMO...............................................*/
+@media screen {
+  .img-promo{
+    width: 90%;
+    padding-top: 5%;
+  }
+  .promo-1{
+    padding-bottom: 35%;
+    padding-top: 10%;
+  }
+
+  .prueba-img{
+    float: left;
+    width: 50%;
+  }
+
+  .prueba-img img{
+    width: 75%;
+    padding-left: 15%;
+  }
+
+  .prueba-p{
+    float: right;
+    width: 50%;
+  }
+
+  .prueba-p p{
+    font-size: 150%;
+    width: 70%;
+  }
+  /*-----------------------------------------------------------*/
+
+  .promo-2{
+    width: 100%;
+    padding-bottom: 20%;
+  }
+
+  .prueba-img2{
+    float: right;
+    width: 50%;
+  }
+
+  .prueba-img2 img{
+    width: 60%;
+  }
+
+  .prueba-p2{
+    float: left;
+    width: 50%;
+    padding-left: 8%;
+  }
+
+  .prueba-p2 p{
+    font-size: 150%;
+    width: 70%;
+  }
+
+}
+
+
+
+/*.................................ESTILOS GENERALES.......................................*/
+@media screen{
+  .titulos{
+    font-size: 220%;
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: -10%;
+  }
+
+  .img-mapa{
+    width: 100%;
+    height: 30rem;
+    padding: 100px;
+    padding-right: 5%;
+  }
+
+  .img-mapa p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 33rem;
+  }
+  .ubicacion{
+    padding-top: 10%;
+  }
+
+  .mapa{
+    width: 30rem;
+    height: 30rem;
+    float: left;
+    border-radius: 50%;
+    margin-left: 0%;
+  }
+  .text-map{
+    font-size: 100%;
+    padding-left: 45rem;
+  }
+  .img-1{
+    width: 90%;
+  }
+  .line{
+    width: 95%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  
+  .line-footer{
+    width: 90%;
+    margin: 0 auto;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 8%;
+  }
+}
+
+/*.....................................PAGO...............................................*/
+@media screen {
+  .pago{
+    width: 100%;
+    height: 25%;
+  }
+  
+.experts{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cont-expert{
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cont-expert img{
+  width: 75%;
+  display: block;
+  margin:0 auto;
+}
+
+.n-expert{
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: 400;
+}
+
+h3.n-experts{
+  color: rgb(0, 0, 0);
+}
+
+}
+/*.....................................FOOTER...............................................*/
+@media screen {
+  footer{
+    background-color: black;
+  }
+  
+
+#contacto{
+  background-image: url(img/fondo-menu.jpg);
+  padding-bottom: 0.1px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us{
+  width: 60%;
+  color: #fff;
+}
+
+.brand{
+  font-weight: 500px;
+  font-size: 40px;
+  padding-left: 20%;
+}
+.brand+p{
+  font-weight: 500;
+  color: #fff;
+  padding-left: 20%;
+}
+
+h2.brand{
+  color: #ffffff;
+}
+
+.social-media{
+  float: right;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.social-media-icon{
+  display: inline-block;
+
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #00000000;
+}
+
+.social-media-icon:hover{
+  background: rgba(216, 166, 3, 0);
+  color: rgb(255, 196, 0);
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
+
+
+
+.logo-titulo{
+  height: 80px;
+  width:  80px;
+  padding-left: 1%;
+  
+}
+
+}
+
+/*.....................................WHASTAPP...............................................*/
+
+@media screen {
+  .social-media-w{
+    bottom: 14px; 
+    right: 16px; 
+    opacity: 1; 
+    transition: opacity 0.5s ease 0s; 
+    box-sizing: border-box; 
+    direction: ltr; 
+    text-align: right; 
+    position: fixed !important; 
+    z-index: 16000160 !important;
+  }
+
+  .social-media-icon-w{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(50, 255, 9);
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(43, 255, 0);
+    background-color: rgb(0, 0, 0);
+    }
+
+    .social-media-icon-w:hover{
+      background: rgb(4, 150, 11);
+      color: #000000;;
+      }
+
+      .social-media-icon-w i{
+        font-size: 45px;
+        line-height: 60px;
+        }
+}
